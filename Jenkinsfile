@@ -6,6 +6,7 @@ pipeline {
             steps {
                 echo 'Task: Compiling source code and packaging the application.'
                 echo 'Tool: Apache Maven'
+                echo 'Test'
             }
         }
 
